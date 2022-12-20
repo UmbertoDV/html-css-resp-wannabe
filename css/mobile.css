@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px){
+    .container{
+        width: 480px;
+    }
+    .row{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right
+    {
+        width: 100%;
+    }
+}
